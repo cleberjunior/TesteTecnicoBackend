@@ -22,26 +22,26 @@ Criar uma API RESTful para um sistema de agendamento de consultas médicas, com 
 
 ### 1. Cadastro e Autenticação
 
-- Cadastro de usuários com dois perfis: PACIENTE e MEDICO
-- Login com autenticação via JWT
+- [x] Cadastro de usuários com dois perfis: PACIENTE e MEDICO
+- [x] Login com autenticação via JWT
 
 ### 2. Agendamento
 
-- Pacientes podem agendar consultas com médicos
-- Só é possível agendar se o médico estiver disponível no horário informado
-- Não pode haver conflitos de horário para o médico
-- Consultas duram 1 hora
+- [x] Pacientes podem agendar consultas com médicos
+- [x] Só é possível agendar se o médico estiver disponível no horário informado
+- [x] Não pode haver conflitos de horário para o médico
+- [x] Consultas duram 1 hora
 
 ### 3. Cancelamento
 
-- Consultas podem ser canceladas com no mínimo 24h de antecedência
-- Cancelamentos devem ser registrados com o motivo
+- [x] Consultas podem ser canceladas com no mínimo 24h de antecedência
+- [x] Cancelamentos devem ser registrados com o motivo
 
 ### 4. Relatórios
 
-- Listagem de consultas futuras de um médico
-- Listagem de consultas de um paciente (passadas e futuras)
-- Relatório simples: médicos com mais agendamentos no mês
+- [x] Listagem de consultas futuras de um médico
+- [x] Listagem de consultas de um paciente (passadas e futuras)
+- [x] Relatório simples: médicos com mais agendamentos no mês
 
 ---
 
